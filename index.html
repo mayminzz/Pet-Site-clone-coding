@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>강아지를 사랑하는 강아지대통령</title>
+    <!-- custom scss & js -->
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/bd0a8925a1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <div class="header_top">
+          <div class="logo_search">
+            <div class="logo">
+              <img src="./img/pet-logo.png" alt="logo" />
+            </div>
+            <div class="search_bar">
+              <input type="text" />
+              <svg fill="#9523DC">
+                <path
+                  d="M10.8353 4.4502C7.30892 4.4502 4.4502 7.30892 4.4502 10.8353C4.4502 14.3617 7.30892 17.2205 10.8353 17.2205C11.6199 17.2205 12.3699 17.0793 13.0622 16.8216C13.4504 16.6771 13.8822 16.8747 14.0267 17.2629C14.1712 17.6511 13.9736 18.0829 13.5854 18.2274C12.7282 18.5465 11.8012 18.7205 10.8353 18.7205C6.48049 18.7205 2.9502 15.1902 2.9502 10.8353C2.9502 6.48049 6.48049 2.9502 10.8353 2.9502C15.1902 2.9502 18.7205 6.48049 18.7205 10.8353C18.7205 12.742 18.0428 14.4922 16.9162 15.8555L20.7305 19.6699C21.0234 19.9628 21.0234 20.4376 20.7305 20.7305C20.4376 21.0234 19.9628 21.0234 19.6699 20.7305L15.7039 16.7645C15.207 16.2677 15.2378 15.5034 15.6556 15.0229C16.6308 13.9014 17.2205 12.4382 17.2205 10.8353C17.2205 7.30892 14.3617 4.4502 10.8353 4.4502Z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+          <div class="header_icon">
+            <ul>
+              <li>
+                <img class="alarm" src="./img/alarm-ico.png" alt="alarm" />
+              </li>
+              <li>
+                <img class="member" src="./img/member-ico.png" alt="member" />
+              </li>
+              <li>
+                <img class="cart" src="./img/cart-ico.png" alt="cart" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="header_bottom">
+          <ul>
+            <li><a href="">카테고리</a></li>
+            <li><a href="">핫딜</a></li>
+            <li><a href="">체험단</a></li>
+            <li><a href="">랭킹</a></li>
+            <li><a href="">신상품</a></li>
+            <li><a href="">브랜드</a></li>
+            <li><a href="">샘플체험</a></li>
+            <li><a href="">이벤트</a></li>
+            <li><a href="">스티커샵</a></li>
+          </ul>
+          <img src="./img/header_bottom_img.svg" alt="" />
+        </div>
+      </header>
+      <main>
+        <section id="banner_section">
+          <ul class="banner_contents"></ul>
+          <div class="banner_buttons">
+            <i id="prev_btn" class="fas fa-chevron-left"></i>
+            <i id="next_btn" class="fas fa-chevron-right"></i>
+          </div>
+          <div class="pager">
+            <span class="active" data-idx="0"></span>
+            <span data-idx="1"></span>
+            <span data-idx="2"></span>
+            <span data-idx="3"></span>
+            <span data-idx="4"></span>
+            <span data-idx="5"></span>
+            <span data-idx="6"></span>
+            <span data-idx="7"></span>
+          </div>
+        </section>
+        <section id="mini_category_section">
+          <div class="mini_category_inner">
+            <ul class="category_boxes">
+              <li>
+                <img src="./img/category1.svg" alt="category1" />
+                <a href="">강대온리</a>
+              </li>
+              <li>
+                <img src="./img/category2.svg" alt="category2" />
+                <a href="">사료</a>
+              </li>
+              <li>
+                <img src="./img/category3.svg" alt="category3" />
+                <a href="">간식</a>
+              </li>
+              <li>
+                <img src="./img/category4.svg" alt="category4" />
+                <a href="">건강관리</a>
+              </li>
+              <li>
+                <img src="./img/category5.svg" alt="category5" />
+                <a href="">위생/배변</a>
+              </li>
+              <li>
+                <img src="./img/category6.svg" alt="category6" />
+                <a href="">핫딜</a>
+              </li>
+              <li>
+                <img src="./img/category7.svg" alt="category7" />
+                <a href="">신상품</a>
+              </li>
+              <li>
+                <img src="./img/category8.svg" alt="category8" />
+                <a href="">랭킹</a>
+              </li>
+              <li>
+                <img src="./img/category9.svg" alt="category9" />
+                <a href="">쿠폰</a>
+              </li>
+              <li>
+                <img src="./img/category10.svg" alt="category10" />
+                <a href="">회원혜택</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section id="advertise_section">
+          <div class="advertise_photo"></div>
+        </section>
+        <section id="hot_deal_section">
+          <div class="hot_deal_inner">
+            <div class="hot_deal_products_box">
+              <h1>핫딜<span>더보기</span></h1>
+              <ul class="hot_deal_products">
+                <li class="hot_deal_product">
+                  <div class="hot_deal_product_photo">
+                    <img src="./img/hot_deal1.png" alt="hot_deal1" />
+                  </div>
+                  <div class="hot_deal_product_desc">
+                    <div class="product_sort">퍼피붐</div>
+                    <h3>퍼피붐 파테크 셀프 펫 이발기 PC-D630P</h3>
+                    <div class="price_sec">
+                      <span class="discount"
+                        >강대할인가<span>35,000원</span></span
+                      >
+                      <span class="price">29%<span>24,900원</span></span>
+                    </div>
+                    <div class="badge">대통령배송</div>
+                    <div class="review">
+                      <span>5.0(1)</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="hot_deal_product">
+                  <div class="hot_deal_product_photo">
+                    <img src="./img/hot_deal2.png" alt="hot_deal2" />
+                  </div>
+                  <div class="hot_deal_product_desc">
+                    <div class="product_sort">네츄럴랩</div>
+                    <h3>네츄럴랩 건강한치즈 볼 오리지널 120g</h3>
+                    <div class="price_sec">
+                      <span class="discount"
+                        >강대할인가<span>7,500원</span></span
+                      >
+                      <span class="price">29%<span>5,300원</span></span>
+                    </div>
+                    <div class="badge">대통령배송</div>
+                    <div class="review">
+                      <span>5.0(7)</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="hot_deal_product">
+                  <div class="hot_deal_product_photo">
+                    <img src="./img/hot_deal3.png" alt="hot_deal3" />
+                  </div>
+                  <div class="hot_deal_product_desc">
+                    <div class="product_sort">아띠지기</div>
+                    <h3>아띠지기 아띠트릿 사과 40g</h3>
+                    <div class="price_sec">
+                      <span class="discount"
+                        >강대할인가<span>15,000원</span></span
+                      >
+                      <span class="price">41%<span>8,900원</span></span>
+                    </div>
+                    <div class="badge">대통령배송</div>
+                    <div class="review">
+                      <span>3.0(2)</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="hot_deal_product">
+                  <div class="hot_deal_product_photo">
+                    <img src="./img/hot_deal4.png" alt="hot_deal4" />
+                  </div>
+                  <div class="hot_deal_product_desc">
+                    <div class="product_sort">찹앤찹</div>
+                    <h3>찹앤찹 찹찹트릿 황태30g</h3>
+                    <div class="price_sec">
+                      <span class="discount"
+                        >강대할인가<span>9,700원</span></span
+                      >
+                      <span class="price">34%<span>6,400원</span></span>
+                    </div>
+                    <div class="badge">대통령배송</div>
+                    <div class="review">
+                      <span>4.5(91)</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section id="today_discount">
+          <div class="today_discount_box">
+            <div class="title">
+              <h2>오늘만 이가격</h2>
+              <span>매일 오전 10시, 한정특가</span>
+            </div>
+            <div class="today_discount_contents_box">
+              <div class="today_discount_contents">
+                <div class="today_discount_content" data-idx="0">
+                  <div class="today_discount_photo">
+                    <span>오늘만 이가격</span>
+                    <img
+                      src="./img/today_discount1.jpg"
+                      alt="today_discount1"
+                    />
+                  </div>
+                  <div class="today_discount_desc">
+                    <h1 class="clock"></h1>
+                    <h3>츄통령 멍츄 한우불리스틱 대형 45g</h3>
+                    <p>40%<span>16,900원</span><span>28,000원</span></p>
+                    <span>4.8(648)</span>
+                  </div>
+                </div>
+                <div class="today_discount_content" data-idx="1">
+                  <div class="today_discount_photo">
+                    <span>오늘만 이가격</span>
+                    <img
+                      src="./img/today_discount2.jpeg"
+                      alt="today_discount2"
+                    />
+                  </div>
+                  <div class="today_discount_desc">
+                    <h1>07 : 54 : 23</h1>
+                    <h3>오리젠 퍼피 11.4kg</h3>
+                    <p>21%<span>114,400원</span><span>114,000원</span></p>
+                    <span>4.6(2613)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="today_control_btn">
+              <div class="prev_btn">
+                <i class="fas fa-angle-left"></i>
+              </div>
+              <div class="pager">
+                <span class="active" data-idx="0"></span>
+                <span data-idx="1"></span>
+              </div>
+              <div class="next_btn">
+                <i class="fas fa-angle-right"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="brand_recommend_section">
+          <div class="brand_recommend_inner">
+            <div class="brnad_recommend_title">브랜드 추천</div>
+            <ul class="brand_recommend_category_list">
+              <li class="active"><a href="">츄통령</a></li>
+              <li><a href="">반려양품</a></li>
+              <li><a href="">듀먼</a></li>
+              <li><a href="">로렌츠</a></li>
+              <li><a href="">하림펫푸드</a></li>
+              <li><a href="">로얄캐닌</a></li>
+              <li><a href="">펫트리언츠</a></li>
+              <li><a href="">동해형씨</a></li>
+              <li><a href="">젠틀우프</a></li>
+              <li><a href="">마이베프</a></li>
+              <li><a href="">포옹</a></li>
+              <li><a href="">빅스비</a></li>
+            </ul>
+            <div class="brand_recommend_products">
+              <div class="brand_recommend_product">
+                <div class="brand_recommend_product_photo">
+                  <img
+                    src="./img/1-brand-recommend1.png"
+                    alt="brand_recommend1"
+                  />
+                </div>
+                <div class="brand_recommend_product_desc">
+                  <div class="product_sort">츄통령</div>
+                  <h3>츄통령 바삭츄 동결건조 북어 대용량 75g</h3>
+                  <div class="price_sec">
+                    <span class="discount">18,500원</span>
+                    <span class="price">30%<span>13,000원</span></span>
+                  </div>
+                  <div class="review">
+                    <span>4.9(867)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="brand_recommend_product">
+                <div class="brand_recommend_product_photo">
+                  <img
+                    src="./img/1-brand-recommend2.png"
+                    alt="brand_recommend2"
+                  />
+                </div>
+                <div class="brand_recommend_product_desc">
+                  <div class="product_sort">츄통령</div>
+                  <h3>츄통령 바삭츄 동결건조 열빙어 65g</h3>
+                  <div class="price_sec">
+                    <span class="discount">18,500원</span>
+                    <span class="price">30%<span>13,000원</span></span>
+                  </div>
+                  <div class="review">
+                    <span>4.9(645)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="brand_recommend_product">
+                <div class="brand_recommend_product_photo">
+                  <img
+                    src="./img/1-brand-recommend3.png"
+                    alt="brand_recommend3"
+                  />
+                </div>
+                <div class="brand_recommend_product_desc">
+                  <div class="product_sort">츄통령</div>
+                  <h3>츄통령 멍츄 칠면조힘줄 스틱 100g</h3>
+                  <div class="price_sec">
+                    <span class="discount">4,000원</span>
+                    <span class="price">35%<span>2,600원</span></span>
+                  </div>
+                  <div class="review">
+                    <span>4.9(1,724)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="brand_recommend_product">
+                <div class="brand_recommend_product_photo">
+                  <img
+                    src="./img/1-brand-recommend4.png"
+                    alt="brand_recommend1"
+                  />
+                </div>
+                <div class="brand_recommend_product_desc">
+                  <div class="product_sort">츄통령</div>
+                  <h3>츄통령 멍츄 산양유 우피스틱 10g</h3>
+                  <div class="price_sec">
+                    <span class="discount">8,500원</span>
+                    <span class="price">24%<span>6,500원</span></span>
+                  </div>
+                  <div class="review">
+                    <span>4.7(1,641)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="premium_section">
+          <div class="premium_contents">
+            <div class="premium_content">
+              <img src="./img/premium_img.jpeg" alt="premium" />
+              <div class="premium_desc">
+                <h1>프리미엄 원물 그대로, 츄통령</h1>
+                <p>
+                  믿을 수 있는 가장 좋은 재료로 신선하고, 안전하게 만든 건강한
+                  간식입니다. 영양소를 그대로 보존하는영하 40도의 동결건조 공법,
+                  무방부제, 무전분/무첨가 스팀제조로 생식에 가깝게 만들었습니다.
+                  HACCP인증 받은 국내 제조 시설에서 생산하는 츄통령을
+                  만나보세요.
+                </p>
+              </div>
+              <div class="premium_products">
+                <div class="premium_product">
+                  <div class="premium_product_img">
+                    <img
+                      src="./img/premium_product.png"
+                      alt="premium_product"
+                    />
+                  </div>
+                  <div class="premium_product_desc">
+                    <h3>츄통령</h3>
+                    <p>츄통령 멍츄 한우 불리스틱소형 35g</p>
+                    <span><span>30%</span>13,000원</span>
+                  </div>
+                </div>
+                <div class="premium_product">
+                  <div class="premium_product_img">
+                    <img
+                      src="./img/premium_product2.png"
+                      alt="premium_product"
+                    />
+                  </div>
+                  <div class="premium_product_desc">
+                    <h3>츄통령</h3>
+                    <p>츄통령 멍츄 한우 불리스틱소형 35g</p>
+                    <span><span>30%</span>13,000원</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="premium_content">
+              <img src="./img/premium_img2.jpeg" alt="premium2" />
+              <div class="premium_desc">
+                <h1>프리미엄 원료로 만든 지위픽</h1>
+                <p>
+                  지위픽은 청정국가 뉴질랜드에서 생산하는 브랜드입니다. 생식에
+                  가깝도록 육류를 풍부하게 넣고 불필요한 탄수화물을 줄였습니다.
+                  뉴질랜드의 목초비육과 자연방목 가금육, 깨끗한 바다에서 어획한
+                  해산물까지 윤리적으로 지속가능한 방법으로 생산하는 지위픽을
+                  만나보세요.
+                </p>
+              </div>
+              <div class="premium_products">
+                <div class="premium_product">
+                  <div class="premium_product_img">
+                    <img
+                      src="./img/2-premium_product2.png"
+                      alt="premium_product"
+                    />
+                  </div>
+                  <div class="premium_product_desc">
+                    <h3>츄통령</h3>
+                    <p>츄통령 멍츄 한우 불리스틱소형 35g</p>
+                    <span><span>30%</span>13,000원</span>
+                  </div>
+                </div>
+                <div class="premium_product">
+                  <div class="premium_product_img">
+                    <img
+                      src="./img/premium_product.png"
+                      alt="premium_product"
+                    />
+                  </div>
+                  <div class="premium_product_desc">
+                    <h3>츄통령</h3>
+                    <p>츄통령 멍츄 한우 불리스틱소형 35g</p>
+                    <span><span>30%</span>13,000원</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="brnad_name_section">
+          <div class="brand_name_inner">
+            <h1>493+ 국내 최대 브랜드 보유! <span>더보기</span></h1>
+            <div class="brand_names">
+              <div class="brand_name">
+                <div class="brand_name_img">
+                  <img src="./img/brand_name1.jpeg" alt="brand_name1" />
+                </div>
+                <span>로얄캐닌</span>
+              </div>
+              <div class="brand_name">
+                <div class="brand_name_img">
+                  <img src="./img/brand_name2.jpeg" alt="brand_name2" />
+                </div>
+                <span>오리젠</span>
+              </div>
+              <div class="brand_name">
+                <div class="brand_name_img">
+                  <img src="./img/brand_name3.png" alt="brand_name3" />
+                </div>
+                <span>아카나</span>
+              </div>
+              <div class="brand_name">
+                <div class="brand_name_img">
+                  <img src="./img/brand_name4.jpeg" alt="brand_name4" />
+                </div>
+                <span>아투</span>
+              </div>
+              <div class="brand_name">
+                <div class="brand_name_img">
+                  <img src="./img/brand_name5.png" alt="brand_name5" />
+                </div>
+                <span>NOW</span>
+              </div>
+              <div class="brand_name">
+                <div class="brand_name_img">
+                  <img src="./img/brand_name6.png" alt="brand_name6" />
+                </div>
+                <span>츄통령</span>
+              </div>
+              <div class="brand_name">
+                <div class="brand_name_img">
+                  <img src="./img/brand_name7.png" alt="brand_name7" />
+                </div>
+                <span>지위픽</span>
+              </div>
+              <div class="brand_name">
+                <div class="brand_name_img">
+                  <img src="./img/brand_name8.png" alt="brand_name8" />
+                </div>
+                <span>네츄럴코어</span>
+              </div>
+              <div class="brand_name">
+                <div class="brand_name_img">
+                  <img src="./img/brand_name9.jpeg" alt="brand_name9" />
+                </div>
+                <span>내추럴발란스</span>
+              </div>
+              <div class="brand_name">
+                <div class="brand_name_img">
+                  <img src="./img/brand_name10.jpeg" alt="brand_name10" />
+                </div>
+                <span>페스룸</span>
+              </div>
+              <div class="brand_name">
+                <div class="brand_name_img">
+                  <img src="./img/brand_name11.jpeg" alt="brand_name11" />
+                </div>
+                <span>하림펫푸드</span>
+              </div>
+              <div class="brand_name">
+                <div class="brand_name_img">
+                  <img src="./img/brand_name12.png" alt="brand_name12" />
+                </div>
+                <span>시저</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="ranking_section">
+          <div class="ranking_section_inner">
+            <div class="ranking_title">
+              <h1>강대랭킹<span>2024.01.12 15:00 기준</span></h1>
+            </div>
+            <div class="ranking_product_boxes">
+              <div class="ranking_product_box"></div>
+            </div>
+            <div class="ranking_slide_btn">
+              <div class="prev_btn">
+                <i class="fas fa-angle-left"></i>
+              </div>
+              <div class="pager">
+                <span class="active" data-idx="1"></span>
+                <span data-idx="11"></span>
+                <span data-idx="21"></span>
+              </div>
+              <div class="next_btn">
+                <i class="fas fa-angle-right"></i>
+              </div>
+            </div>
+            <div class="view_more">
+              <button><span>강대랭킹</span>더보기</button>
+            </div>
+          </div>
+        </section>
+        <section id="footer_banner_section">
+          <div class="footer_banner_inner">
+            <ul class="footer_banner_list">
+              <li>
+                <a href="">
+                  <img
+                    src="./img/footer_banner_mobile.png"
+                    alt="footer_banner_mobile"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./img/footer_banner.svg" alt="footer_banner" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./img/footer_banner2.svg" alt="footer_banner2" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./img/footer_banner3.svg" alt="footer_banner3" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./img/footer_banner4.svg" alt="footer_banner4" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="footer_inner">
+          <div class="footer_logo">
+            <svg>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M7.27802 5.4206C7.54608 5.41199 7.85179 5.44911 8.05859 5.51742C8.26708 5.58788 8.43904 5.70513 8.57841 5.86919C8.71834 6.03324 8.82118 6.25269 8.89143 6.52593C8.95942 6.79971 8.99708 7.14126 8.99708 7.55004L8.9982 7.56672V7.59737V7.64256C8.9982 8.13847 9.02293 8.58921 9.13982 8.98401C9.2567 9.38096 9.4444 9.72144 9.69953 10.0022C9.9541 10.2781 10.2868 10.4917 10.6959 10.6439C11.1033 10.7961 11.5973 10.8709 12.1801 10.8709C13.2292 10.8709 14.0334 10.581 14.5937 10.0033C15.1399 9.43905 15.4277 8.66882 15.4378 7.69688L15.4462 7.38814C15.4462 6.97936 15.4867 6.63512 15.5738 6.35758C15.6614 6.07949 15.7856 5.85735 15.9458 5.69491C16.1059 5.52764 16.2993 5.41522 16.5252 5.34906C16.7511 5.2829 16.9972 5.2544 17.2681 5.263C17.5361 5.2544 17.7755 5.28398 17.9818 5.35552C18.1892 5.4249 18.3639 5.5427 18.5033 5.70513C18.6427 5.86919 18.7455 6.08541 18.8146 6.36188C18.8837 6.63834 18.9191 6.97936 18.9191 7.38814L18.9236 10.7907L20.4162 10.7961V7.76842C20.4162 7.26981 20.3578 6.82122 20.2403 6.42481C20.124 6.02786 19.9363 5.68846 19.6806 5.4093C19.4238 5.13069 19.0934 4.91661 18.6854 4.76601C18.2757 4.61379 17.7829 4.53795 17.2001 4.53795C16.1509 4.53795 15.3484 4.82625 14.7864 5.40392C14.229 5.98053 13.9491 6.76959 13.9491 7.76842L13.9413 8.09222C13.9413 8.50208 13.8929 8.77585 13.8053 9.05232C13.7187 9.33148 13.5956 9.5547 13.4344 9.71713C13.2742 9.88011 13.0798 9.99252 12.8561 10.0598C12.6296 10.1248 12.3829 10.1533 12.1137 10.1458C11.8451 10.1533 11.6057 10.1238 11.3984 10.0533C11.1887 9.98284 11.0162 9.86881 10.8769 9.70476C10.7375 9.54071 10.6358 9.32233 10.5666 9.04694C10.4953 8.7737 10.461 8.43054 10.461 8.02176L10.4503 7.86739C10.4492 7.38115 10.4323 6.97828 10.3183 6.58778C10.1986 6.19083 10.0131 5.85144 9.75742 5.57389C9.50172 5.29689 9.16904 5.0812 8.76217 4.92898C8.3525 4.77676 7.85741 4.702 7.27802 4.702H5.38026V3.07708C5.38026 2.6441 5.45388 2.27942 5.59887 1.9852C5.74554 1.68614 5.93211 1.44733 6.16196 1.26768C6.39124 1.08372 6.65255 0.961089 6.94309 0.890627C7.23644 0.820166 7.52585 0.78359 7.81582 0.78359H9.13982V-9.15527e-05H7.81582C6.50307 0.0090523 5.49884 0.324246 4.80425 0.943339C4.11022 1.56297 3.76236 2.40958 3.76236 3.4821V4.702H2.48951V5.4206H3.76236L3.76011 6.93525L3.75899 7.92386C3.75899 8.35578 3.6865 8.72153 3.53982 9.01467C3.39596 9.3105 3.20826 9.55039 2.97898 9.73004C2.74633 9.91077 2.48839 10.0388 2.19504 10.1092C1.90506 10.1797 1.61453 10.2152 1.32343 10.2152H0V11H1.32343C2.63618 10.9897 3.64042 10.6756 4.33557 10.0565C5.03016 9.43582 5.37801 8.58921 5.37801 7.51615V6.93525L5.38026 5.4206H7.27802Z"
+                fill="#787878"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M33.2041 8.25285C33.2041 8.65841 33.1271 9.02201 32.9748 9.3442C32.8186 9.66477 32.6101 9.94339 32.3471 10.1763C32.0835 10.4097 31.7694 10.5894 31.4136 10.7152C31.0562 10.8406 30.6741 10.9035 30.2656 10.9035C29.6721 10.9035 29.1439 10.755 28.6819 10.4571C28.22 10.1618 27.8963 9.74975 27.7075 9.21941L25.4298 2.61486C25.3652 2.39594 25.2804 2.22598 25.1753 2.10818C25.0707 1.9877 24.9252 1.92746 24.7375 1.92746C24.1755 1.92746 23.8945 2.23942 23.8945 2.86336V10.8088H21.7653V2.67564C21.7653 2.28138 21.8394 1.91939 21.9889 1.59236C22.1373 1.2648 22.3446 0.986178 22.6071 0.759195C22.8723 0.530599 23.1809 0.35579 23.5388 0.228852C23.8974 0.105141 24.2874 0.0438232 24.7032 0.0438232C25.286 0.0438232 25.8109 0.189049 26.2728 0.480039C26.7336 0.768877 27.0584 1.18196 27.2461 1.70908L29.5412 8.32869C29.617 8.54922 29.7058 8.71381 29.8047 8.82246C29.9036 8.93057 30.0464 8.98382 30.233 8.98382C30.7949 8.98382 31.0748 8.67401 31.0748 8.05007V0.0734063H33.2041V8.25285Z"
+                fill="#454545"
+              ></path>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M39.8577 10.8088C36.4016 10.8088 34.6736 9.02203 34.6736 5.44893V5.4016C34.6848 1.8511 36.4179 0.0734253 39.8729 0.0734253H44V1.95921H39.3615C38.4584 1.95921 37.7852 2.23729 37.339 2.79937C36.8933 3.35929 36.6691 4.24302 36.6691 5.45646C36.6691 7.76878 37.5615 8.92413 39.343 8.92413H43.9825V10.8088H39.8577Z"
+                fill="#454545"
+              ></path>
+            </svg>
+          </div>
+          <div class="brand_info">
+            <li><span>대표자</span> 김도성</li>
+            <li><span>사업자등록번호</span> 127-86-32494</li>
+            <li>
+              <span>주소</span> 서울특별시 강남구 삼성로 570 석천빌딩 지하 1층
+            </li>
+            <li><span>구매안전(에스크로)서비스</span></li>
+            <li><span>통신판매업</span> 제 2013-서울강남-01570호</li>
+            <li><span>개인정보보호책임자</span> 최온섭</li>
+            <li><span>팩스</span> 02-585-8477</li>
+            <li><span>Tel.</span> 1588-2469</li>
+            <li><span>Email.</span>webmaster@funnc.com</li>
+          </div>
+          <div class="chat_sns">
+            <button>채팅문의</button>
+            <ul class="footer_nav">
+              <li><a href="">회사소개</a></li>
+              <li><a href="">개인정보처리방침</a></li>
+              <li><a href="">이용약관</a></li>
+              <li><a href="">제휴 입점 및 문의</a></li>
+              <li><a href="">사업자 정보</a></li>
+            </ul>
+            <div class="sns">
+              <img src="./img/facebook.png" alt="facebook" />
+              <img src="./img/instagram.png" alt="instagram" />
+            </div>
+          </div>
+          <div class="brand_list">
+            <ul>
+              <li>
+                <img src="./img/footer_brand1.jpeg" alt="footer_brand1" />
+              </li>
+              <li>
+                <img src="./img/footer_brand2.jpeg" alt="footer_brand2" />
+              </li>
+              <li>
+                <img src="./img/footer_brand3.jpeg" alt="footer_brand3" />
+              </li>
+              <li>
+                <img src="./img/footer_brand4.jpeg" alt="footer_brand4" />
+              </li>
+              <li>
+                <img src="./img/footer_brand5.jpeg" alt="footer_brand5" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

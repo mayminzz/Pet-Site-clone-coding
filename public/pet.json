@@ -1,0 +1,294 @@
+{
+  "ranking": [
+    {
+      "idx": "1",
+      "img": "./img/ranking1.png",
+      "title": "흡수혁명 배변패드 소현 50매 3묶음",
+      "discount": "36%",
+      "price": "32,700원",
+      "review": "4.8(41,824)"
+    },
+    {
+      "idx": "2",
+      "img": "./img/ranking2.png",
+      "title": "ANF 6Free 플러스 소고기 & 연어 5.6kg",
+      "discount": "26%",
+      "price": "47,400원",
+      "review": "4.7(2,816)"
+    },
+    {
+      "idx": "3",
+      "img": "./img/ranking3.png",
+      "title": "츄통령 멍츄 칠면조힘줄 링 10g",
+      "discount": "35%",
+      "price": "2,600원",
+      "review": "4.9(83)"
+    },
+    {
+      "idx": "4",
+      "img": "./img/ranking4.png",
+      "title": "츄통령 바삭츄 동결건조 노른자 90g",
+      "discount": "28%",
+      "price": "9,800원",
+      "review": "4.9(83)"
+    },
+    {
+      "idx": "5",
+      "img": "./img/ranking5.png",
+      "title": "흡수혁명 배변패드 대형 20매 3묶음",
+      "discount": "36%",
+      "price": "31,900원",
+      "review": "4.8(12,935)"
+    },
+    {
+      "idx": "6",
+      "img": "./img/ranking6.png",
+      "title": "츄통령 바삭츄 동결건조 닭가슴살 소용량 55g",
+      "discount": "28%",
+      "price": "9,000원",
+      "review": "4.9(1,033)"
+    },
+    {
+      "idx": "7",
+      "img": "./img/ranking7.png",
+      "title": "반려양품 배변패드 기본형 100매 4묶음",
+      "discount": "41%",
+      "price": "33,000원",
+      "review": "4.8(1,966)"
+    },
+    {
+      "idx": "8",
+      "img": "./img/ranking8.png",
+      "title": "츄통령 바삭츄 동결건조 북어 소용량 40g ",
+      "discount": "29%",
+      "price": "8,500원",
+      "review": "4.9(869)"
+    },
+    {
+      "idx": "9",
+      "img": "./img/ranking9.png",
+      "title": "네츄럴코어 하루유산균 혼합 36개입",
+      "discount": "36%",
+      "price": "9,300원",
+      "review": "4.7(15,983)"
+    },
+    {
+      "idx": "10",
+      "img": "./img/ranking10.png",
+      "title": "페퍼로니 진짜 오메가3 연어 180g",
+      "discount": "25%",
+      "price": "4,500원",
+      "review": "4.8(11,562)"
+    },
+    {
+      "idx": "11",
+      "img": "./img/ranking11.png",
+      "title": "로얄캐닌 말티즈 어덜트 3kg 피모관리",
+      "discount": "23%",
+      "price": "38,900원",
+      "review": "4.9(1,721)"
+    },
+    {
+      "idx": "12",
+      "img": "./img/ranking12.png",
+      "title": "카누들 플러스 덴탈껌 S 소형견용 100개입",
+      "discount": "40%",
+      "price": "43,800원",
+      "review": "4.8(10,106)"
+    },
+    {
+      "idx": "13",
+      "img": "./img/ranking13.png",
+      "title": "네츄럴코어 에코 9a 시니어 오리 & 고구마 6kg",
+      "discount": "29%",
+      "price": "49,400원",
+      "review": "4.7(5,341)"
+    },
+    {
+      "idx": "14",
+      "img": "./img/ranking14.png",
+      "title": "네츄럴코어 홀리스틱 베네 M32 멀티프로테인 6kg",
+      "discount": "46%",
+      "price": "49,400원",
+      "review": "4.6(11,844)"
+    },
+    {
+      "idx": "15",
+      "img": "./img/ranking15.png",
+      "title": "츄통령 바삭츄 동결건조 열빙어 65g",
+      "discount": "30%",
+      "price": "13,000원",
+      "review": "4.9(647)"
+    },
+    {
+      "idx": "16",
+      "img": "./img/ranking16.png",
+      "title": "로얄캐닌 말티즈 어덜트 3kg 피모관리",
+      "discount": "23%",
+      "price": "38,900원",
+      "review": "4.9(963)"
+    },
+    {
+      "idx": "17",
+      "img": "./img/ranking17.png",
+      "title": "네츄럴코어 에코 4 오리고기 슬림다운 6kg",
+      "discount": "21%",
+      "price": "54,900원",
+      "review": "4.6(4,256)"
+    },
+    {
+      "idx": "18",
+      "img": "./img/ranking18.png",
+      "title": "건강백서 야들야들 똔득한 소고시 120g",
+      "discount": "13%",
+      "price": "6,500원",
+      "review": "4.7(4,911)"
+    },
+    {
+      "idx": "19",
+      "img": "./img/ranking19.png",
+      "title": "로얄캐닌 미니 라이트웨이트 케어 3kg 체중조절",
+      "discount": "27%",
+      "price": "39,400원",
+      "review": "4.9(1,635)"
+    },
+    {
+      "idx": "20",
+      "img": "./img/ranking20.png",
+      "title": "아침애 북어와 닭가슴살 60g",
+      "discount": "27%",
+      "price": "4,400원",
+      "review": "4.7(4,635)"
+    },
+    {
+      "idx": "21",
+      "img": "./img/ranking21.png",
+      "title": "덴티후레쉬 블루베리 250g",
+      "discount": "46%",
+      "price": "6,500원",
+      "review": "4.6(3,924)"
+    },
+    {
+      "idx": "22",
+      "img": "./img/ranking22.png",
+      "title": "굿데이 건강한 육포 닭가슴살 스틱 300g",
+      "discount": "35%",
+      "price": "8,500원",
+      "review": "4.6(551)"
+    },
+    {
+      "idx": "23",
+      "img": "./img/ranking23.png",
+      "title": "츄통령 바삭츄 동결건조 북어 대용량 75g",
+      "discount": "30%",
+      "price": "13,000원",
+      "review": "4.8(869)"
+    },
+    {
+      "idx": "24",
+      "img": "./img/ranking24.png",
+      "title": "네이쳐스 본 오리껌 20개입",
+      "discount": "14%",
+      "price": "6,900원",
+      "review": "4.8(2,459)"
+    },
+    {
+      "idx": "25",
+      "img": "./img/ranking25.png",
+      "title": "포켄스 덴티페어리 SS 124개입",
+      "discount": "25%",
+      "price": "29,000원",
+      "review": "4.9(2,227)"
+    },
+    {
+      "idx": "26",
+      "img": "./img/ranking26.png",
+      "title": "하림펫푸드 밥이보약 하루양갱 버라이어티 팩 30개입",
+      "discount": "10%",
+      "price": "13,500원",
+      "review": "4.9(158)"
+    },
+    {
+      "idx": "27",
+      "img": "./img/ranking27.png",
+      "title": "ANF 6Free 플러스 오리고기 & 연어 5.6kg",
+      "discount": "24%",
+      "price": "48,900원",
+      "review": "4.7(756)"
+    },
+    {
+      "idx": "28",
+      "img": "./img/ranking28.png",
+      "title": "뉴트리나 건강백서 건강한 6세이상 6kg",
+      "discount": "26%",
+      "price": "43,100원",
+      "review": "4.6(1,642)"
+    },
+    {
+      "idx": "29",
+      "img": "./img/ranking29.png",
+      "title": "츄통령 멍츄 산양유 우피스틱 35g",
+      "discount": "24%",
+      "price": "6,500원",
+      "review": "4.6(1,642)"
+    },
+    {
+      "idx": "30",
+      "img": "./img/ranking30.png",
+      "title": "더내추럴 호박 군고구마 칩 300g",
+      "discount": "11%",
+      "price": "4,500원",
+      "review": "4.8(1,707)"
+    }
+  ],
+  "bannerImg": [
+    {
+      "img": "./img/banner1.jpeg",
+      "mobileImg" : "./img/banner1_mobile.png",
+      "index": 0,
+      "alt": "banner1"
+    },
+    {
+      "img": "./img/banner2.jpeg",
+      "mobileImg" : "./img/banner2_mobile.png",
+      "index": 1,
+      "alt": "banner2"
+    },
+    {
+      "img": "./img/banner3.jpeg",
+      "mobileImg" : "./img/banner3_mobile.png",
+      "index": 2,
+      "alt": "banner3"
+    },
+    {
+      "img": "./img/banner4.jpeg",
+      "mobileImg" : "./img/banner4_mobile.png",
+      "index": 3,
+      "alt": "banner4"
+    },
+    {
+      "img": "./img/banner5.jpeg",
+      "mobileImg" : "./img/banner5_mobile.png",
+      "index": 4,
+      "alt": "banner5"
+    },
+    {
+      "img": "./img/banner6.jpeg",
+      "mobileImg" : "./img/banner6_mobile.png",
+      "index": 5,
+      "alt": "banner6"
+    },
+    {
+      "img": "./img/banner7.jpeg",
+      "mobileImg" : "./img/banner7_mobile.png",
+      "index": 6,
+      "alt": "banner7"
+    },
+    {
+      "img": "./img/banner8.jpeg",
+      "mobileImg" : "./img/banner8_mobile.png",
+      "index": 7,
+      "alt": "banner8"
+    }
+  ]
+}
